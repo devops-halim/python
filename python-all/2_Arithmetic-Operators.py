@@ -1,0 +1,8 @@
+print(5+5)
+print(10-5)
+print(5*5)
+print(150 / 50)
+print(166 // 155)
+print(177 / 188)
+print(177 // 188)
+print(7 % 3)
