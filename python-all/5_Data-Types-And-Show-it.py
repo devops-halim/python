@@ -1,4 +1,3 @@
-##Learn Python in Arabic #9 - 9 شرح بايثون بالعربي انواع البيانات و اظهار النوع DataTypes And Show it
 from operator import truediv
 
 

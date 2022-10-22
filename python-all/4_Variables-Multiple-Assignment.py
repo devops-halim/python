@@ -1,4 +1,3 @@
-# Learn Python in Arabic #8 - شرح بايثون متغيرات وتعريف اكثر من متغير Variables Multiple Assignment
 num1 ,num2,num3 = 5 , 10 , 15
 print(num1)
 print(num2)
