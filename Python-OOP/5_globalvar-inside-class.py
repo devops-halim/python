@@ -22,6 +22,6 @@ emp03 = employee()
 emp04 = employee()
 
 
-emp1=employee()
+#emp1=employee()
 #emp1.cahngx(9)
 print(x)
