@@ -1,12 +1,21 @@
 from tkinter import *
 frm = Tk()
-frm.geometry('900x600')
-
+frm.geometry('500x300')
+fnt = ('arial 60 ')
+pad = 10
 def button7(seiben):
     str7.set(seiben)
 str7 = IntVar()
-Label(frm,textvariable=str7).pack()
-Button(frm,text='7',command=lambda:button7('7')).pack()
-Button(frm,text='8',command=lambda:button7('8')).pack()
-Button(frm,text='9',command=lambda:button7('9')).pack()
+Label(frm,font=fnt,textvariable=str7).grid(row=0,column=0)
+#Entry(frm,font=fnt,textvariable=str7).grid(row=0,column=0)
+Button(frm,text='7',font=fnt,command=lambda:button7('7'),pady=pad).grid(row=1,column=0)
+Button(frm,text='8',font=fnt,command=lambda:button7('8'),pady=pad).grid(row=1,column=1)
+Button(frm,text='9',font=fnt,command=lambda:button7('9'),pady=pad).grid(row=1,column=2)
+Button(frm,text='4',font=fnt,command=lambda:button7('4'),pady=pad).grid(row=2,column=0)
+Button(frm,text='5',font=fnt,command=lambda:button7('5'),pady=pad).grid(row=2,column=1)
+Button(frm,text='6',font=fnt,command=lambda:button7('6'),pady=pad).grid(row=2,column=2)
+Button(frm,text='1',font=fnt,command=lambda:button7('1'),pady=pad).grid(row=3,column=0)
+Button(frm,text='2',font=fnt,command=lambda:button7('2'),pady=pad).grid(row=3,column=1)
+Button(frm,text='3',font=fnt,command=lambda:button7('3'),pady=pad).grid(row=3,column=2)
+Button(frm,text='0',font=fnt,command=lambda:button7('0'),pady=pad).grid(row=4,column=0)
 frm.mainloop()
